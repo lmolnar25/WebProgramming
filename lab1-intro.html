@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My First HTML Page</title>
+    <style>
+      /* I looked up and added display: block; to img and a tags to fix layout issues with the image since it looked out of place. 
+         I found out that by default inline elements like <img> and <a> can cause spacing 
+         problems. Setting display: block; makes them behave like block-level 
+         elements, making them start on new lines and take up full width. */
+      img,
+      a {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to My Webpage!</h1>
+
+    <p>
+      In my Web Programming class IT2310, I am learning the fundamentals of HTML
+      and exploring how to build websites. I'm also discovering the power and
+      efficiency of Visual Studio Code as my code editor as well as extensions
+      like Prettier. I also learned a bit about how to use Windows Powershell
+      and BASH for commands!
+    </p>
+
+    <p>
+      It's <strong>exciting</strong> to see how code transforms into interactive
+      webpages like this one. I'm looking forward to learning more about HTML,
+      CSS, and Javascript to create more complex and interactive websites.
+    </p>
+
+    <a href="https://www.tri-c.edu/IT" target="_blank">
+      Visit Cuyahoga Community College IT Website
+    </a>
+
+    <img
+      src="mycats.jpg"
+      alt="A picture of my two cats woody and kirby."
+      width="300"
+      height="200"
+    />
+  </body>
+</html>
