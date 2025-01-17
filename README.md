@@ -1,5 +1,5 @@
 # Web-Programming-Repository
-Repository HTML labs for IT-2310 Web Programming.
+Repository for IT-2310 Web Programming class.
 
 ## Lesson 1 - 1/13 - 1/20: Lab 1 Assignment
 #### Filename: [lab1-intro.html](https://github.com/lmolnar25/WebProgramming/blob/main/lab1-intro.html)
