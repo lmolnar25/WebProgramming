@@ -1,4 +1,4 @@
-# HTML-CSS-Class-Projects
+# WebProgramming Repository
 Repository HTML labs for IT-2310 Web Programming.
 
 ## Lesson 1 - 1/13 - 1/20: Lab 1 Assignment
