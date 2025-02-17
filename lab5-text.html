@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Styling Text and Fonts</title>
+    <style>
+      /* Font Properties. Using Comments for organization because I keep losing track of things... */
+      body {
+        font-family: sans-serif;
+      }
+
+      h1 {
+        font-size: 3rem;
+        font-weight: bold;
+      }
+
+      h2 {
+        font-size: 2rem;
+        font-weight: lighter;
+      }
+
+      /* Text Alignment */
+      h1,
+      footer {
+        text-align: center;
+      }
+
+      p {
+        text-align: justify;
+      }
+
+      /* Text Transformation */
+      h2 {
+        text-transform: uppercase;
+      }
+
+      section:nth-child(3) p {
+        /* Targets the "Transforming Text" paragraph */
+        text-transform: capitalize;
+      }
+
+      /* Text Shadow */
+      h1 {
+        text-shadow: 3px 3px 3px red;
+      }
+
+      section:nth-child(4) p {
+        /* Targets"Text Shadow" paragraph */
+        text-shadow: 2px 2px 2px gray;
+      }
+
+      /* Lists */
+      ul {
+        list-style-type: square; /* Replaces default bullets with square bullets */
+      }
+
+      ol {
+        list-style-type: upper-roman; /* uppercase Roman numerals */
+      }
+
+      /* Spacing */
+      p {
+        line-height: 1.6;
+      }
+
+      li {
+        margin: 1rem 0; /* 1rem margin between list items */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Text Styling Lab!</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Font Properties</h2>
+        <p>
+          This paragraph demonstrates the use of font-family, font-size, and
+          font-weight properties.
+        </p>
+      </section>
+      <section>
+        <h2>Text Alignment</h2>
+        <p>
+          This paragraph demonstrates how to align text using the text-align
+          property.
+        </p>
+      </section>
+      <section>
+        <h2>Transforming Text</h2>
+        <p>
+          This paragraph demonstrates text transformation with uppercase,
+          lowercase, and capitalization.
+        </p>
+      </section>
+      <section>
+        <h2>Text Shadow</h2>
+        <p>This paragraph demonstrates how to add shadow effects to text.</p>
+      </section>
+      <section>
+        <h2>Lists</h2>
+        <ul>
+          <li>Item One</li>
+          <li>Item Two</li>
+          <li>Item Three</li>
+        </ul>
+        <ol>
+          <li>First Step</li>
+          <li>Second Step</li>
+          <li>Third Step</li>
+        </ol>
+      </section>
+    </main>
+    <footer>
+      <p>Styling Text and Fonts Lab © 2025. CSS code by Lauren S01323061</p>
+    </footer>
+  </body>
+</html>
