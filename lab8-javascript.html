@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Button</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 50px;
+      }
+      button {
+        font-size: 20px;
+        padding: 10px 20px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #a829c5;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to My Page</h1>
+
+    <button id="nameButton">Click Me!</button>
+
+    <script>
+      document.write("Lauren Molnar");
+
+      let nameButton = document.getElementById("nameButton");
+
+      nameButton.addEventListener("click", function () {
+        let person = prompt("Please enter your name:");
+
+        if (person) {
+          nameButton.textContent = "Hello, " + person + "!";
+        }
+      });
+    </script>
+  </body>
+</html>
